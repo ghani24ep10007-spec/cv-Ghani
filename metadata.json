@@ -1,0 +1,8 @@
+{
+  "name": "CV Online — Rizqi Ghani Adinata",
+  "description": "CV Online — Rizqi Ghani Adinata, Mahasiswa Program Studi Sistem Informasi, Universitas Nahdlatul Ulama (UNUGHA) Cilacap.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

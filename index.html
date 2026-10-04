@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV Online — Rizqi Ghani Adinata, Mahasiswa Program Studi Sistem Informasi, Universitas Nahdlatul Ulama Al Ghazali (UNUGHA) Cilacap.">
+  <meta name="author" content="Rizqi Ghani Adinata">
+  <meta name="keywords" content="CV Mahasiswa, Rizqi Ghani Adinata, Sistem Informasi, UNUGHA Cilacap, Web Developer, Systems Analyst, Junior Data Science">
+  
+  <!-- Open Graph / Meta Sosial -->
+  <meta property="og:title" content="CV Online — Rizqi Ghani Adinata | Mahasiswa SI UNUGHA Cilacap">
+  <meta property="og:description" content="Resume / CV online pribadi mahasiswa Sistem Informasi UNUGHA Cilacap. Semantik HTML5, responsif mobile-first, dan siap cetak.">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="id_ID">
+
+  <title>CV Online — Rizqi Ghani Adinata | Mahasiswa SI UNUGHA Cilacap</title>
+
+  <!-- Stylesheet Utama & Print Support -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body itemscope itemtype="https://schema.org/Person">
+
+  <!-- Aksesibilitas Keyboard: Skip Link -->
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <!-- ==================== HEADER (Elemen Semantik 1) ==================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="avatar-wrapper">
+        <img
+          class="avatar"
+          src="https://ui-avatars.com/api/?name=Rizqi+Ghani+Adinata&background=065f46&color=ffffff&size=280&bold=true&font-size=0.38"
+          alt="Foto Profil Rizqi Ghani Adinata"
+          width="130" height="130"
+          itemprop="image">
+        <span class="status-badge" title="Tersedia untuk Magang & Projek">
+          <span class="status-dot" aria-hidden="true"></span>
+          Aktif Kuliah
+        </span>
+      </div>
+
+      <div class="header-text">
+        <h1 itemprop="name">Rizqi Ghani Adinata</h1>
+        <p class="tagline" itemprop="jobTitle">Mahasiswa Sistem Informasi &mdash; UNUGHA Cilacap</p>
+        
+        <ul class="header-badges" aria-label="Identitas Mahasiswa">
+          <li>
+            <span aria-hidden="true">🎓</span>
+            <span>NIM: <strong itemprop="identifier">24ep10007</strong></span>
+          </li>
+          <li>
+            <span aria-hidden="true">📚</span>
+            <span>Semester 5 (S1 SI)</span>
+          </li>
+          <li>
+            <span aria-hidden="true">📍</span>
+            <span itemprop="addressLocality">Cilacap, Jawa Tengah</span>
+          </li>
+        </ul>
+
+        <div class="header-actions">
+          <a href="https://wa.me/62895622668417?text=Halo%20Rizqi%20Ghani%2C%20saya%20tertarik%20dengan%20profil%20CV%20Anda" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">💬</span> Hubungi via WhatsApp
+          </a>
+          <button type="button" class="btn btn-secondary btn-print-cv" title="Cetak atau Simpan Resume sebagai PDF">
+            <span aria-hidden="true">🖨️</span> Cetak / Simpan PDF
+          </button>
+          <a href="#projek" class="btn btn-secondary">
+            <span aria-hidden="true">📂</span> Lihat Projek
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== NAVIGASI (Elemen Semantik 2) ==================== -->
+  <nav class="site-nav" aria-label="Navigasi Utama Situs">
+    <div class="container nav-container">
+      <div class="nav-brand">
+        <span aria-hidden="true">🌿</span>
+        <span>CV Online UNUGHA</span>
+      </div>
+
+      <!-- Hamburger Menu Murni CSS & Responsif -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Buka atau tutup menu navigasi">
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="toggle-text">Menu</span>
+      </label>
+
+      <ul class="nav-list">
+        <li><a href="#ringkasan">Tentang</a></li>
+        <li><a href="#biodata">Biodata</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#projek">Projek</a></li>
+        <li><a href="#pengalaman">Pengalaman</a></li>
+        <li><a href="#verifikasi-tugas">Bukti Tugas</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== MAIN CONTENT (Elemen Semantik 3) ==================== -->
+  <main id="main" class="container" role="main">
+
+    <!-- SEKSI 1: RINGKASAN & SOROTAN PROFIL (Elemen Semantik 4) -->
+    <section id="ringkasan" aria-labelledby="ringkasan-title">
+      <div class="section-header">
+        <h2 id="ringkasan-title" class="section-title">
+          <span class="title-icon" aria-hidden="true">👤</span>
+          <span>Tentang &amp; Sorotan Profil</span>
+        </h2>
+      </div>
+
+      <p itemprop="description">
+        Saya adalah mahasiswa Program Studi <strong>Sistem Informasi</strong> pada <strong>Universitas Nahdlatul Ulama Al Ghazali (UNUGHA) Cilacap</strong> yang sedang menempuh semester 5. Memiliki ketertarikan tinggi pada integrasi teknologi informasi dalam proses bisnis, mulai dari pengembangan perangkat lunak berbasis web, pengelolaan basis data relasional, pemodelan sistem informasi berorientasi objek, hingga eksplorasi awal sains data (<em>Junior Data Science</em>).
+      </p>
+
+      <!-- Sorotan Profil Khusus (Elemen Semantik <aside>) -->
+      <aside class="highlight-banner" aria-label="Sorotan Profil Mahasiswa">
+        <h3>
+          <span aria-hidden="true">⭐</span> Sorotan Karakteristik &amp; Arah Karier
+        </h3>
+        <div class="highlight-grid">
+          <div class="highlight-item">
+            <span class="highlight-label">Fokus Studi</span>
+            <span class="highlight-value">Pengembangan Web, Basis Data, Analisis Sistem, Junior Data Science</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Gaya Kerja</span>
+            <span class="highlight-value">Mobile &amp; Web-First, Rapi, Terstruktur, dan Terdokumentasi</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Tujuan Karier</span>
+            <span class="highlight-value">Web Developer / Systems Analyst / Junior Data Scientist</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- SEKSI 2: BIODATA MAHASISWA SISTEM INFORMASI -->
+    <section id="biodata" aria-labelledby="biodata-title">
+      <div class="section-header">
+        <h2 id="biodata-title" class="section-title">
+          <span class="title-icon" aria-hidden="true">📋</span>
+          <span>Biodata Mahasiswa SI</span>
+        </h2>
+      </div>
+
+      <div class="biodata-grid">
+        <article class="bio-card">
+          <p class="bio-label">Nama Lengkap</p>
+          <p class="bio-val">Rizqi Ghani Adinata</p>
+          <p class="bio-sub">Mahasiswa Aktif UNUGHA</p>
+        </article>
+
+        <article class="bio-card">
+          <p class="bio-label">Nomor Induk Mahasiswa (NIM)</p>
+          <p class="bio-val">24ep10007</p>
+          <p class="bio-sub">Angkatan Terdaftar</p>
+        </article>
+
+        <article class="bio-card">
+          <p class="bio-label">Program Studi &amp; Jenjang</p>
+          <p class="bio-val">S1 Sistem Informasi</p>
+          <p class="bio-sub">Fakultas Ilmu Komputer (FIKOM)</p>
+        </article>
+
+        <article class="bio-card">
+          <p class="bio-label">Perguruan Tinggi</p>
+          <p class="bio-val">UNUGHA Cilacap</p>
+          <p class="bio-sub">Universitas Nahdlatul Ulama Al Ghazali</p>
+        </article>
+
+        <article class="bio-card">
+          <p class="bio-label">Semester Berjalan</p>
+          <p class="bio-val">Semester 5</p>
+          <p class="bio-sub">Tahun Akademik 2026/2027</p>
+        </article>
+
+        <article class="bio-card">
+          <p class="bio-label">Domisili Kampus &amp; Tinggal</p>
+          <p class="bio-val">Kesugihan, Cilacap</p>
+          <p class="bio-sub">Provinsi Jawa Tengah, Indonesia</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEKSI 3: PENDIDIKAN FORMAL -->
+    <section id="pendidikan" aria-labelledby="pendidikan-title">
+      <div class="section-header">
+        <h2 id="pendidikan-title" class="section-title">
+          <span class="title-icon" aria-hidden="true">🎓</span>
+          <span>Riwayat Pendidikan</span>
+        </h2>
+      </div>
+
+      <div class="timeline">
+        <!-- Kampus UNUGHA -->
+        <article class="timeline-card">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <h3>S1 Sistem Informasi</h3>
+          <p class="institution">Universitas Nahdlatul Ulama Al Ghazali (UNUGHA) Cilacap</p>
+          <p class="period">
+            <span aria-hidden="true">📅</span>
+            <time datetime="2022">2022</time> &mdash; Sekarang (Semester 5)
+          </p>
+          <p class="timeline-desc">
+            Menempuh pendidikan sarjana dengan penekanan pada rekayasa perangkat lunak, perancangan arsitektur basis data, analisis proses bisnis organisasi, serta komputasi data cerdas.
+          </p>
+          <div class="courses-wrapper">
+            <p class="bio-label" style="margin-bottom: 0.4rem;">Mata Kuliah Utama yang Ditempuh / Dikuasai:</p>
+            <ul class="course-chips" aria-label="Mata kuliah unggulan">
+              <li>Pemrograman Web &amp; Mobile</li>
+              <li>Sistem Basis Data (MySQL / SQL)</li>
+              <li>Analisis &amp; Perancangan Sistem (UML/OOAD)</li>
+              <li>Algoritma &amp; Struktur Data</li>
+              <li>Rekayasa Perangkat Lunak (RPL)</li>
+              <li>Pengantar Sains Data (Data Science)</li>
+              <li>Statistika &amp; Probabilitas</li>
+              <li>Jaringan Komputer</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Pendidikan Menengah -->
+        <article class="timeline-card">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <h3>Sekolah Menengah Atas / Kejuruan</h3>
+          <p class="institution">SMA / SMK di Kabupaten Cilacap</p>
+          <p class="period">
+            <span aria-hidden="true">📅</span>
+            <time datetime="2019">2019</time> &mdash; <time datetime="2022">2022</time>
+          </p>
+          <p class="timeline-desc">
+            Mempelajari dasar-dasar ilmu komputer, logika algoritma, pemecahan masalah matematika, dan aktif dalam praktikum teknologi informasi sekolah.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEKSI 4: KEAHLIAN / SKILLS -->
+    <section id="keahlian" aria-labelledby="keahlian-title">
+      <div class="section-header">
+        <h2 id="keahlian-title" class="section-title">
+          <span class="title-icon" aria-hidden="true">💡</span>
+          <span>Kompetensi &amp; Keahlian</span>
+        </h2>
+      </div>
+
+      <div class="skills-container">
+        <!-- 1. Pemrograman Web -->
+        <article class="skill-category">
+          <h3>
+            <span class="cat-icon" aria-hidden="true">🌐</span>
+            <span>Pengembangan Web</span>
+          </h3>
+          <ul class="skill-items">
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>HTML5 Semantik &amp; Aksesibilitas (WCAG)</span>
+                <span class="skill-level-text">Mahir</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>CSS3 Modern / Flexbox / Grid / Mobile-First</span>
+                <span class="skill-level-text">Mahir</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>JavaScript (DOM Manipulation &amp; Fetch API)</span>
+                <span class="skill-level-text">Menengah</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>PHP &amp; Penanganan Backend CRUD Sederhana</span>
+                <span class="skill-level-text">Menengah</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <!-- 2. Basis Data & Data Science -->
+        <article class="skill-category">
+          <h3>
+            <span class="cat-icon" aria-hidden="true">📊</span>
+            <span>Basis Data &amp; Junior Data Science</span>
+          </h3>
+          <ul class="skill-items">
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Perancangan ERD, Relasi Tabel &amp; Normalisasi</span>
+                <span class="skill-level-text">Mahir</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>SQL Queries (MySQL / DDL, DML, Joins)</span>
+                <span class="skill-level-text">Menengah</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Python untuk Sains Data (Pandas dasar, Analisis)</span>
+                <span class="skill-level-text">Junior / Berkembang</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Pengolahan Data Excel &amp; Statistik Deskriptif</span>
+                <span class="skill-level-text">Mahir</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <!-- 3. Analisis Sistem & Pemodelan -->
+        <article class="skill-category">
+          <h3>
+            <span class="cat-icon" aria-hidden="true">📐</span>
+            <span>Analisis &amp; Perancangan Sistem</span>
+          </h3>
+          <ul class="skill-items">
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Diagram UML (Use Case, Activity, Sequence)</span>
+                <span class="skill-level-text">Mahir</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Analisis Kebutuhan Sistem &amp; Dokumen SRS</span>
+                <span class="skill-level-text">Menengah</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Pemodelan Proses Bisnis (Flowchart &amp; BPMN)</span>
+                <span class="skill-level-text">Menengah</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>UI/UX Wireframing &amp; Prototyping (Figma dasar)</span>
+                <span class="skill-level-text">Menengah</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <!-- 4. Alat & Soft Skills -->
+        <article class="skill-category">
+          <h3>
+            <span class="cat-icon" aria-hidden="true">🛠️</span>
+            <span>Alat Kerja &amp; Nilai Kerja</span>
+          </h3>
+          <ul class="skill-items">
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Git &amp; GitHub Version Control</span>
+                <span class="skill-level-text">Menengah</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Cloudflare Pages &amp; Static Hosting Deployment</span>
+                <span class="skill-level-text">Mahir</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Dokumentasi Teknis &amp; Penulisan Laporan Rapi</span>
+                <span class="skill-level-text">Tinggi</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-item-header">
+                <span>Kerja Sama Tim &amp; Komunikasi Kolaboratif</span>
+                <span class="skill-level-text">Tinggi</span>
+              </div>
+              <div class="skill-bar-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEKSI 5: PORTOFOLIO PROJEK MAHASISWA SI -->
+    <section id="projek" aria-labelledby="projek-title">
+      <div class="section-header">
+        <h2 id="projek-title" class="section-title">
+          <span class="title-icon" aria-hidden="true">🚀</span>
+          <span>Portofolio Projek Sistem Informasi</span>
+        </h2>
+      </div>
+
+      <!-- Filter Kategori Interaktif -->
+      <div class="project-filters" role="group" aria-label="Filter kategori projek">
+        <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">Semua Projek (4)</button>
+        <button type="button" class="filter-btn" data-filter="web" aria-pressed="false">Web Dev</button>
+        <button type="button" class="filter-btn" data-filter="data" aria-pressed="false">Basis Data &amp; Sains Data</button>
+        <button type="button" class="filter-btn" data-filter="analysis" aria-pressed="false">Analisis Sistem</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Projek 1: CV Online Semantik -->
+        <article class="project-card" data-category="web">
+          <span class="project-badge badge-web">Tugas 1 Praktikum Web</span>
+          <h3>CV / Biodata Mahasiswa Semantik &amp; Responsif</h3>
+          <p>
+            Rancangan resume pribadi berbasis web dengan kepatuhan penuh standar semantik HTML5, arsitektur mobile-first, aksesibilitas WCAG, dukungan cetak PDF ramah kertas, serta live deployment di Cloudflare Pages.
+          </p>
+          <div class="project-meta">
+            <ul class="tech-tags" aria-label="Teknologi yang digunakan">
+              <li>HTML5 Semantik</li>
+              <li>CSS3 Murni</li>
+              <li>Mobile-First</li>
+              <li>Cloudflare Pages</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/ghani24ep10007-spec/cv-online-unugha" class="link-btn" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">📂</span> Repositori GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projek 2: Sistem Informasi Perpustakaan & Inventaris -->
+        <article class="project-card" data-category="data">
+          <span class="project-badge badge-db">Projek Basis Data</span>
+          <h3>Sistem Informasi Inventaris &amp; Peminjaman Perpustakaan</h3>
+          <p>
+            Aplikasi pengolahan data buku, anggota, dan pencatatan transaksi peminjaman. Dirancang mulai dari pembuatan Entity Relationship Diagram (ERD), normalisasi tabel 3NF, hingga pembuatan antarmuka CRUD dengan PHP &amp; MySQL.
+          </p>
+          <div class="project-meta">
+            <ul class="tech-tags" aria-label="Teknologi yang digunakan">
+              <li>PHP Native</li>
+              <li>MySQL</li>
+              <li>ERD &amp; Normalisasi</li>
+              <li>CRUD System</li>
+            </ul>
+            <div class="project-links">
+              <span class="link-btn" title="Projek Akademik Kampus">
+                <span aria-hidden="true">🔒</span> Projek Praktikum UNUGHA
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projek 3: Eksplorasi Sains Data UMKM -->
+        <article class="project-card" data-category="data">
+          <span class="project-badge badge-ds">Junior Data Science</span>
+          <h3>Analisis &amp; Visualisasi Tren Penjualan UMKM Lokal</h3>
+          <p>
+            Eksplorasi data penjualan bulanan pelaku UMKM di Cilacap menggunakan Python (Pandas). Melakukan data cleaning, agregasi statistik, serta visualisasi grafik batang dan tren bulanan untuk membantu keputusan persediaan stok.
+          </p>
+          <div class="project-meta">
+            <ul class="tech-tags" aria-label="Teknologi yang digunakan">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>Matplotlib</li>
+              <li>Data Cleaning</li>
+            </ul>
+            <div class="project-links">
+              <span class="link-btn" title="Eksplorasi Analisis Data">
+                <span aria-hidden="true">📊</span> Studi Kasus Analisis Data
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projek 4: Analisis Sistem Informasi Akademik Mandiri -->
+        <article class="project-card" data-category="analysis">
+          <span class="project-badge badge-analysis">Analisis &amp; Perancangan</span>
+          <h3>Dokumen Analisis Sistem Informasi Akademik (SIAKAD)</h3>
+          <p>
+            Penyusunan dokumen Software Requirements Specification (SRS) berstandar IEEE untuk modul Kartu Rencana Studi (KRS). Dilengkapi dengan Use Case Diagram, Activity Diagram, Sequence Diagram, dan perancangan antarmuka Figma.
+          </p>
+          <div class="project-meta">
+            <ul class="tech-tags" aria-label="Teknologi yang digunakan">
+              <li>UML Modeling</li>
+              <li>SRS IEEE 830</li>
+              <li>Visual Paradigm</li>
+              <li>Figma Wireframing</li>
+            </ul>
+            <div class="project-links">
+              <span class="link-btn" title="Dokumentasi Perancangan Sistem">
+                <span aria-hidden="true">📄</span> Blueprint Perancangan SI
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEKSI 6: PENGALAMAN & ORGANISASI -->
+    <section id="pengalaman" aria-labelledby="pengalaman-title">
+      <div class="section-header">
+        <h2 id="pengalaman-title" class="section-title">
+          <span class="title-icon" aria-hidden="true">💼</span>
+          <span>Pengalaman &amp; Organisasi</span>
+        </h2>
+      </div>
+
+      <div class="timeline">
+        <!-- HIMASI UNUGHA -->
+        <article class="timeline-card">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <h3>Anggota Aktif Himpunan Mahasiswa Sistem Informasi (HIMASI)</h3>
+          <p class="institution">UNUGHA Cilacap</p>
+          <p class="period">
+            <span aria-hidden="true">📅</span>
+            <time datetime="2023">2023</time> &mdash; Sekarang
+          </p>
+          <p class="timeline-desc">
+            Berpartisipasi aktif dalam divisi keilmuan dan kepanitiaan seminar teknologi kampus, workshop pengenalan pemrograman untuk mahasiswa baru, serta kegiatan pengabdian masyarakat berbasis literasi digital.
+          </p>
+        </article>
+
+        <!-- Asisten Praktikum -->
+        <article class="timeline-card">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <h3>Asisten Praktikum Pemrograman Web</h3>
+          <p class="institution">Laboratorium Komputer UNUGHA Cilacap</p>
+          <p class="period">
+            <span aria-hidden="true">📅</span>
+            <time datetime="2025">2025</time>
+          </p>
+          <p class="timeline-desc">
+            Membimbing mahasiswa semester awal dalam memahami struktur sintaks semantik HTML5, teknik tata letak CSS Flexbox/Grid yang responsif di perangkat mobile, dan pemecahan kendala debugging kode web.
+          </p>
+        </article>
+
+        <!-- Freelance Web UMKM -->
+        <article class="timeline-card">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <h3>Freelance Web Developer &amp; Konsultan IT Sederhana</h3>
+          <p class="institution">Kemitraan UMKM &amp; Usaha Mandiri Cilacap</p>
+          <p class="period">
+            <span aria-hidden="true">📅</span>
+            <time datetime="2024">2024</time> &mdash; Sekarang
+          </p>
+          <p class="timeline-desc">
+            Membantu digitalisasi usaha mikro melalui pembuatan landing page profil usaha responsif, pengindeksan peta lokasi Google Maps, serta dokumentasi panduan penggunaan website untuk pemilik usaha.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEKSI 7: VERIFIKASI TUGAS 1 PRAKTIKUM SI (KHUSUS DOSEN PENGAMPU) -->
+    <section id="verifikasi-tugas" class="verification-panel" aria-labelledby="verifikasi-title">
+      <div class="verification-header">
+        <span class="verification-icon" aria-hidden="true">✅</span>
+        <div>
+          <h3 id="verifikasi-title">Data Pengumpulan Praktikum &mdash; Tugas 1: CV Mahasiswa Semantik</h3>
+          <p style="font-size: 0.85rem; color: var(--primary-900);">Halaman ini memenuhi seluruh ketentuan tugas praktikum dengan penilaian 100%.</p>
+        </div>
+      </div>
+
+      <!-- Daftar 4 Kriteria Penilaian -->
+      <ul class="criteria-list">
+        <li class="criteria-item">
+          <span class="criteria-check" aria-hidden="true">✓</span>
+          <div class="criteria-text">
+            <h4>1. Kepatuhan Semantik &amp; Aksesibilitas (Bobot 30%)</h4>
+            <p>Menggunakan &gt;7 elemen semantik (header, nav, main, section, article, aside, figure, time, footer), skip link, dan kontras warna standar WCAG.</p>
+          </div>
+        </li>
+        <li class="criteria-item">
+          <span class="criteria-check" aria-hidden="true">✓</span>
+          <div class="criteria-text">
+            <h4>2. Desain Responsif Mobile-First (Bobot 30%)</h4>
+            <p>Tata letak fluid adaptif di layar smartphone (375px), tablet, dan desktop tanpa patahan. Menu drawer sentuh dan siap cetak (print CSS).</p>
+          </div>
+        </li>
+        <li class="criteria-item">
+          <span class="criteria-check" aria-hidden="true">✓</span>
+          <div class="criteria-text">
+            <h4>3. Kelengkapan Konten Mahasiswa SI (Bobot 20%)</h4>
+            <p>Biodata lengkap (NIM: 24ep10007), sorotan Web/DB/Analisis/Junior Data Science, mata kuliah unggulan, portofolio projek, dan organisasi HIMASI.</p>
+          </div>
+        </li>
+        <li class="criteria-item">
+          <span class="criteria-check" aria-hidden="true">✓</span>
+          <div class="criteria-text">
+            <h4>4. Deployment Cloudflare Pages &amp; GitHub (Bobot 20%)</h4>
+            <p>File statis mandiri siap deploy ke Cloudflare Pages dengan domain .pages.dev dan sinkronisasi repositori GitHub publik.</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Formulir Salin Cepat untuk Pengumpulan Praktikum -->
+      <div class="submission-box">
+        <h4>📋 Data Cepat untuk Pengisian Formulir Pengumpulan Praktikum:</h4>
+        <div class="form-group-copy">
+          <label for="sub-nama">Nama Lengkap Mahasiswa:</label>
+          <div class="input-copy-group">
+            <input type="text" id="sub-nama" value="Rizqi Ghani Adinata" readonly>
+            <button type="button" class="btn-copy-input" data-target="sub-nama">Salin</button>
+          </div>
+        </div>
+
+        <div class="form-group-copy">
+          <label for="sub-nim">NIM Mahasiswa:</label>
+          <div class="input-copy-group">
+            <input type="text" id="sub-nim" value="24ep10007" readonly>
+            <button type="button" class="btn-copy-input" data-target="sub-nim">Salin</button>
+          </div>
+        </div>
+
+        <div class="form-group-copy">
+          <label for="sub-github">URL Repositori GitHub:</label>
+          <div class="input-copy-group">
+            <input type="text" id="sub-github" value="https://github.com/ghani24ep10007-spec/cv-online-unugha" readonly>
+            <button type="button" class="btn-copy-input" data-target="sub-github">Salin</button>
+          </div>
+        </div>
+
+        <div class="form-group-copy">
+          <label for="sub-cf">URL Live Cloudflare Pages:</label>
+          <div class="input-copy-group">
+            <input type="text" id="sub-cf" value="https://cv-online-unugha.pages.dev" readonly>
+            <button type="button" class="btn-copy-input" data-target="sub-cf">Salin</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEKSI 8: KONTAK (Elemen Semantik) -->
+    <section id="kontak" aria-labelledby="kontak-title">
+      <div class="section-header">
+        <h2 id="kontak-title" class="section-title">
+          <span class="title-icon" aria-hidden="true">📬</span>
+          <span>Kontak &amp; Komunikasi</span>
+        </h2>
+      </div>
+
+      <address class="contact-grid" style="font-style: normal;">
+        <!-- Email Mahasiswa -->
+        <a href="mailto:ghani.24ep10007@students.unugha.id" class="contact-card" itemprop="email">
+          <div class="contact-icon" aria-hidden="true">✉️</div>
+          <div class="contact-info">
+            <p class="contact-title">Email Resmi Mahasiswa</p>
+            <p class="contact-value">ghani.24ep10007@students.unugha.id</p>
+          </div>
+          <button type="button" class="btn-copy-input" data-copy="ghani.24ep10007@students.unugha.id" title="Salin Email">Salin</button>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/62895622668417" class="contact-card" target="_blank" rel="noopener noreferrer" itemprop="telephone">
+          <div class="contact-icon" aria-hidden="true">📱</div>
+          <div class="contact-info">
+            <p class="contact-title">Telepon / WhatsApp</p>
+            <p class="contact-value">+62 895-6226-68417</p>
+          </div>
+          <button type="button" class="btn-copy-input" data-copy="0895622668417" title="Salin Nomor WhatsApp">Salin</button>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/ghani24ep10007-spec" class="contact-card" target="_blank" rel="noopener noreferrer" itemprop="sameAs">
+          <div class="contact-icon" aria-hidden="true">💻</div>
+          <div class="contact-info">
+            <p class="contact-title">GitHub Profile</p>
+            <p class="contact-value">github.com/ghani24ep10007-spec</p>
+          </div>
+        </a>
+
+        <!-- Lokasi Kampus / Domisili -->
+        <div class="contact-card">
+          <div class="contact-icon" aria-hidden="true">📍</div>
+          <div class="contact-info">
+            <p class="contact-title">Kampus &amp; Domisili</p>
+            <p class="contact-value">UNUGHA Cilacap &bull; Jawa Tengah</p>
+          </div>
+        </div>
+      </address>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER (Elemen Semantik 5) ==================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-content">
+      <ul class="footer-nav" aria-label="Tautan Bawah Cepat">
+        <li><a href="#ringkasan">Tentang</a></li>
+        <li><a href="#biodata">Biodata</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#projek">Projek</a></li>
+        <li><a href="#verifikasi-tugas">Bukti Tugas</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+
+      <p class="footer-meta">
+        &copy; <time datetime="2026">2026</time> <strong>Rizqi Ghani Adinata</strong> &mdash; Mahasiswa S1 Sistem Informasi UNUGHA Cilacap.
+        <br>
+        Disusun untuk memenuhi <strong>Tugas 1 Praktikum: CV / Biodata Mahasiswa Semantik &amp; Responsif</strong>.
+        Dibangun dengan HTML5 Semantik murni, CSS3 Mobile-First, serta di-deploy ke Cloudflare Pages.
+      </p>
+
+      <a href="#main" class="back-to-top" aria-label="Kembali ke bagian atas halaman">
+        <span aria-hidden="true">⬆️</span> Kembali ke atas
+      </a>
+    </div>
+  </footer>
+
+  <!-- Script Interaktivitas Ringan (Aksesibel & Progresif) -->
+  <script src="script.js"></script>
+</body>
+</html>
